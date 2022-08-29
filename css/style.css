@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 40px;
+}
+.float-left {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+.float-right {
+    display: inline-block;
+    float: right;
+    margin-right: 150px;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.about {
+    margin-left: 250px;
+    font-size: 16px;
+    font-weight: 600;
+}
+img {
+    width: 210px;
+}
+#top {
+    margin-top: 150px;
+}
+.info {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 278px;
+}
+.up {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(12, 13, 31, 0.5);
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+ul {
+    padding: 0;
+}
+span {
+    font-size: 14px;
+}
+h5 {
+    font-weight: 600;
+    margin-left: 42px;
+}
+.before1,
+.before2 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: 68px;
+}
+.before1::before {
+    content: ' ';
+    background-image: url(../img/goal.png);
+    background-size:cover;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 42px;
+}
+.before2::before {
+    content: ' ';
+    background-image: url(../img/frustration.png);
+    background-size:cover;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 42px;
+}
+.right {
+    margin-top: 1px;
+    display: inline-block;
+    width: 300px;
+    position: relative;
+}
